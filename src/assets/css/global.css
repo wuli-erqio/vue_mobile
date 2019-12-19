@@ -1,0 +1,21 @@
+/* 全局样式 */
+html,
+body,
+#app {
+  font-size: 14px;
+  font-size: #444;
+}
+/* 去除九宫格边框 */
+.van-grid-item__content--surround::after {
+  border-width: 0px !important;
+}
+.van-nav-bar {
+  position: relative;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  background-color: #daa;
+  -webkit-user-select: none;
+  user-select: none;
+  color: #fff;
+}
